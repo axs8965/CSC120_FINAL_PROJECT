@@ -1,0 +1,37 @@
+
+1. Get/input data
+	1.1 Get data by loading FleetData.csv
+	1.2 If menu option selected is (A)dd, input the following:
+		1.2.1 Get Boat Type
+		1.2.2 Get Name
+		1.2.3 Get Year
+		1.2.4 Get Make/Model
+		1.2.5 Get Length
+		1.2.6 Get Purchase Price
+	1.3 If menu option selected is (R)emove:
+		1.3.1 Get Name
+	1.4 If menu option selected is (E)xpense:
+		1.4.1 Get Name
+		1.4.2 Get Amount
+
+2. Perform computation
+        2.1 Add expenses to boat
+		2.1.1 If expenses < purchase price, expenses = expenses + amount
+	2.2 Compute remaining budget
+		2.2.1 Remaining budget = purchase price - expenses
+	2.3 Compute total purchase price of all boats
+	2.4 Compute total expenses of all boats
+
+3. Output data
+	3.1 Display menu options
+        3.2 If menu option selected is (P)rint, display the fleet report:
+		3.2.1 Display Boat Type
+		3.2.2 Display Name
+		3.2.3 Display Year
+		3.2.4 Display Make/Model
+		3.2.5 Display Length
+		3.2.6 Display Purchase Price
+		3.2.7 Display Expenses
+		3.2.8 Display Total Purchase Price of all boats
+		3.2.9 Display Total Expenses of all boats
+        3.3 Print exit message
