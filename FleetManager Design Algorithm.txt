@@ -1,4 +1,8 @@
 
+FleetManager Design Algorithm
+CSC 120
+Aakash Singh
+
 1. Get/input data
 	1.1 Get data by loading FleetData.csv
 	1.2 If menu option selected is (A)dd, input the following:

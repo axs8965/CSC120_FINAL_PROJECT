@@ -7,7 +7,7 @@ import java.io.Serializable;
  *
  * @see BoatType
  * @author Aakash Singh
- * @version 1.1
+ * @version 1.0
  */
 
 public class SingleBoat implements Serializable {
